@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    ["styled-components", { "ssr": true, "displayName": true, "preprocess": false }],
+    [
+      "babel-plugin-root-import",
+      {
+        "rootPathSuffix": "@"
+      }
+    ]
+  ],
+
+  "presets": ["next/babel"]
+}
