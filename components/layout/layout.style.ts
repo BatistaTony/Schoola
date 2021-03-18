@@ -16,6 +16,9 @@ const LayoutStyle = {
     width: '100%',
     height: '100%',
     display: 'flex',
+    flexDirection: 'Column',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
   },
 } as any;
 

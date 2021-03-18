@@ -1,5 +1,10 @@
+import Hero from '@/components/hero';
 import Layout from '../components/layout';
 
 export default function Home() {
-  return <Layout title="AgendaSó">Just Setting up the project</Layout>;
+  return (
+    <Layout title="SchoolaApp">
+      <Hero />
+    </Layout>
+  );
 }

@@ -1,6 +1,7 @@
 import { Layout as AntLayout } from 'antd';
 import Head from 'next/head';
 import { FC } from 'react';
+import Navbar from '../navbar';
 
 import LayoutStyle from './layout.style';
 import { LayoutProps } from './layout.types';
@@ -12,7 +13,9 @@ const Layout: FC<LayoutProps> = ({ children, title }) => (
     <Head>
       <title>{title || 'No title'}</title>
     </Head>
+   
     <div style={LayoutStyle.containerStyle}>
+       <Navbar />
       <Content className="site-layout" style={LayoutStyle.contentStyle}>
         {children}
       </Content>
