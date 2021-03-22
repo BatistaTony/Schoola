@@ -12,7 +12,7 @@ const Hero = () => {
         </p>
         <button className="btn_presentation">Começar</button>
       </PresentationDiv>
-      <img className="illustration_" src="./undraw_book_reading_kx9s.svg" alt="" />
+      <img className="illustration_" src="./undraw_book_lover_mkck.svg" alt="" />
     </HeroStyled>
   );
 };
