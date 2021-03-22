@@ -7,7 +7,6 @@ const LayoutStyle = {
   },
   headerStyle: {
     width: '100%',
-    height: 'auto !important',
     backgroundColor: '#F0F1F3',
     color: '#000 !important',
   },

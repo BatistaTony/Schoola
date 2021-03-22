@@ -28,7 +28,7 @@ export const Logo = styled.h1`
   color: black;
   height: 100%;
   ${addFont('Bold')};
-  ${addFlexbox('row', 'center', 'flex-start')};
+  ${addFlexbox('row', 'flex-end', 'flex-start')};
   width: 100%;
 `;
 
@@ -43,6 +43,17 @@ export const ButtonAccount = styled.button`
   color: white;
   margin-left: 20px;
   cursor: pointer;
+
+  @media (max-width: 750px) {
+    height: 30px;
+    font-size: 10pt;
+  }
+
+  @media (max-width: 500px) {
+    &:last-child {
+      display: none;
+    }
+  }
 `;
 
 export const SearchStyled = styled.div`

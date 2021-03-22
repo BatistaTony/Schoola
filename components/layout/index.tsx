@@ -9,16 +9,14 @@ import { LayoutProps } from './layout.types';
 const { Content } = AntLayout;
 
 const Layout: FC<LayoutProps> = ({ children, title }) => (
-  <AntLayout style={{ minHeight: '100vh', backgroundColor: '#fff' }}>
+  <AntLayout style={{ backgroundColor: '#fff' }}>
     <Head>
-      <title>{title || 'No title'}</title>
+      <title>{title || 'SchoolaApp'}</title>
     </Head>
-   
+
     <div style={LayoutStyle.containerStyle}>
-       <Navbar />
-      <Content className="site-layout" style={LayoutStyle.contentStyle}>
-        {children}
-      </Content>
+      <Navbar />
+      <Content style={LayoutStyle.contentStyle}>{children}</Content>
     </div>
   </AntLayout>
 );

@@ -33,6 +33,22 @@ export const ListOf = styled.ul`
   flex-wrap: wrap;
   box-sizing: border-box;
   grid-gap: 40px;
+
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 625px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 450px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 export const CardBookStyled = styled.li`
@@ -40,6 +56,9 @@ export const CardBookStyled = styled.li`
   height: 350px;
   box-sizing: border-box;
   margin-top: 30px;
+  @media (max-width: 450px) {
+    height: 450px;
+  }
 
   .cover {
     width: 100%;

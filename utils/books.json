@@ -8,7 +8,8 @@
     "year": 2020,
     "auhtorId": 1,
     "category": "Romance",
-    "rates": 4
+    "rates": 4,
+    "owner": ""
   },
   {
     "cover": "cover.jpg",
@@ -19,7 +20,8 @@
     "year": 2010,
     "auhtorId": 2,
     "category": "story",
-    "rates": 2
+    "rates": 2,
+    "owner": ""
   },
   {
     "cover": "cover.jpg",
@@ -30,7 +32,8 @@
     "year": 2017,
     "auhtorId": 3,
     "category": "Revolutionary story",
-    "rates": 5
+    "rates": 5,
+    "owner": ""
   },
   {
     "cover": "cover.jpg",
@@ -41,7 +44,8 @@
     "year": 2000,
     "auhtorId": 4,
     "category": "FinanciaL Education",
-    "rates": 5
+    "rates": 5,
+    "owner": ""
   },
   {
     "cover": "cover.jpg",
@@ -52,7 +56,8 @@
     "year": 2018,
     "auhtorId": 5,
     "category": "Productivity and Focus",
-    "rates": 5
+    "rates": 5,
+    "owner": ""
   },
   {
     "cover": "cover.jpg",
@@ -63,7 +68,8 @@
     "year": 2014,
     "auhtorId": 6,
     "category": "Financial Education",
-    "rates": 5
+    "rates": 5,
+    "owner": ""
   },
   {
     "cover": "cover.jpg",
@@ -74,7 +80,8 @@
     "year": 2020,
     "auhtorId": 1,
     "category": "Romance",
-    "rates": 4
+    "rates": 4,
+    "owner": ""
   },
   {
     "cover": "cover.jpg",
@@ -85,7 +92,8 @@
     "year": 2020,
     "auhtorId": 1,
     "category": "Romance",
-    "rates": 4
+    "rates": 4,
+    "owner": ""
   },
   {
     "cover": "cover.jpg",
@@ -96,7 +104,8 @@
     "year": 2020,
     "auhtorId": 1,
     "category": "Romance",
-    "rates": 4
+    "rates": 4,
+    "owner": ""
   },
   {
     "title": "A era do gelo",
@@ -106,18 +115,8 @@
     "year": 2020,
     "auhtorId": 1,
     "category": "Romance",
-    "rates": 4
-  },
-  {
-    "cover": "cover.jpg",
-    "title": "A era do gelo",
-    "edition": "3 edition",
-    "pages": 350,
-    "review": "",
-    "year": 2020,
-    "auhtorId": 1,
-    "category": "Romance",
-    "rates": 4
+    "rates": 4,
+    "owner": ""
   },
   {
     "cover": "cover.jpg",
@@ -128,7 +127,8 @@
     "year": 2020,
     "auhtorId": 1,
     "category": "Romance",
-    "rates": 4
+    "rates": 4,
+    "owner": ""
   },
   {
     "cover": "cover.jpg",
@@ -139,6 +139,19 @@
     "year": 2020,
     "auhtorId": 1,
     "category": "Romance",
-    "rates": 4
+    "rates": 4,
+    "owner": ""
+  },
+  {
+    "cover": "cover.jpg",
+    "title": "A era do gelo",
+    "edition": "3 edition",
+    "pages": 350,
+    "review": "",
+    "year": 2020,
+    "auhtorId": 1,
+    "category": "Romance",
+    "rates": 4,
+    "owner": ""
   }
 ]
