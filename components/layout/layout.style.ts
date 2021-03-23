@@ -12,6 +12,7 @@ const LayoutStyle = {
   },
   contentStyle: {
     width: '100%',
+    height: 'auto',
     display: 'flex',
     flexDirection: 'Column',
     justifyContent: 'flex-start',

@@ -3,9 +3,10 @@ import styled from 'styled-components';
 
 export const ListStyled = styled.div`
   width: 90%;
-  height: 500px;
+  height: auto;
   margin-top: 40px;
   box-sizing: border-box;
+  margin-bottom: 70px;
 
   .header_list {
     width: 100%;
