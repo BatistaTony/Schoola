@@ -8,6 +8,18 @@ export const ListStyled = styled.div`
   box-sizing: border-box;
   margin-bottom: 70px;
 
+  @media (min-width: 1630px) {
+    width: 80%;
+    margin-bottom: 80px;
+    margin-top: 50px;
+  }
+
+  @media (min-width: 2050px) {
+    width: 72%;
+    margin-bottom: 90px;
+    margin-top: 60px;
+  }
+
   .header_list {
     width: 100%;
     ${addFlexbox('row', 'center', 'space-between')};
@@ -15,12 +27,28 @@ export const ListStyled = styled.div`
     .title {
       font-size: 20pt;
       ${addFont('Bold')};
+
+      @media (min-width: 1630px) {
+        font-size: 23pt;
+      }
+
+      @media (min-width: 2050px) {
+        font-size: 25pt;
+      }
     }
 
     .orderMode {
       font-size: 13pt;
       ${addFont()};
       color: gray;
+
+      @media (min-width: 1630px) {
+        font-size: 15pt;
+      }
+
+      @media (min-width: 2050px) {
+        font-size: 17pt;
+      }
     }
   }
 `;
@@ -57,20 +85,54 @@ export const CardBookStyled = styled.li`
   height: 350px;
   box-sizing: border-box;
   margin-top: 30px;
+
   @media (max-width: 450px) {
     height: 450px;
+  }
+
+  @media (min-width: 1800px) {
+    height: 400px;
+  }
+
+  @media (min-width: 2050px) {
+    height: 460px;
+    margin-top: 40px;
   }
 
   .title {
     font-size: 12pt;
     ${addFont('Medium')};
     margin-top: 10px;
+
+    @media (min-width: 1630px) {
+      font-size: 13pt;
+    }
+
+    @media (min-width: 1800px) {
+      font-size: 14.5pt;
+    }
+
+    @media (min-width: 2050px) {
+      font-size: 16pt;
+    }
   }
 
   .author {
     font-size: 11pt;
     ${addFont()};
     line-height: 5px;
+
+    @media (min-width: 1630px) {
+      font-size: 12pt;
+    }
+
+    @media (min-width: 1800px) {
+      font-size: 13.5pt;
+    }
+
+    @media (min-width: 2050px) {
+      font-size: 14.5pt;
+    }
   }
 
   .owner {
@@ -81,6 +143,18 @@ export const CardBookStyled = styled.li`
       ${addFont('Medium')};
       height: 100%;
       margin-left: 5px;
+
+      @media (min-width: 1630px) {
+        font-size: 11pt;
+      }
+
+      @media (min-width: 1800px) {
+        font-size: 12.5pt;
+      }
+
+      @media (min-width: 2050px) {
+        font-size: 13.5pt;
+      }
     }
   }
 `;
@@ -96,14 +170,4 @@ export const BookCover = styled.div<{ cover: String }>`
   &:hover {
     cursor: pointer;
   }
-`;
-
-export const AvatarOwner = styled.div<{ avatar: string }>`
-  width: 20px;
-  height: 20px;
-  border-radius: 100%;
-  border: 1px solid gray;
-  background: ${({ avatar }) => `url(${avatar})`};
-  background-position: center top;
-  background-size: 100%;
 `;

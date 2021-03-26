@@ -12,6 +12,14 @@ export const AboutStyled = styled.div`
     padding-top: 5%;
     padding-bottom: 50px;
   }
+
+  @media (min-width: 1630px) {
+    height: 650px;
+  }
+
+  @media (min-width: 1800px) {
+    height: 750px;
+  }
 `;
 
 export const ListCard = styled.div`
@@ -52,6 +60,14 @@ export const ListCard = styled.div`
     grid-template-columns: repeat(1, 100%);
     width: 90%;
   }
+
+  @media (min-width: 1630px) {
+    width: 65%;
+  }
+
+  @media (min-width: 1800px) {
+    width: 60%;
+  }
 `;
 
 export const CardStoryStyled = styled.div`
@@ -83,6 +99,16 @@ export const CardStoryStyled = styled.div`
   .ilust {
     width: 7rem;
     margin-bottom: 10px;
+
+    @media (min-width: 1630px) {
+      width: 9rem;
+      margin-bottom: 20px;
+    }
+
+    @media (min-width: 1800px) {
+      margin-bottom: 25px;
+      width: 10rem;
+    }
   }
 
   .title {
@@ -90,6 +116,14 @@ export const CardStoryStyled = styled.div`
     font-size: 13pt;
     ${addFont('Medium')};
     text-align: center;
+
+    @media (min-width: 1630px) {
+      font-size: 14pt;
+    }
+
+    @media (min-width: 1800px) {
+      font-size: 16pt;
+    }
   }
 
   .text {
@@ -100,6 +134,14 @@ export const CardStoryStyled = styled.div`
 
     @media (max-width: 1000px) {
       font-size: 10pt;
+    }
+
+    @media (min-width: 1630px) {
+      font-size: 12pt;
+    }
+
+    @media (min-width: 1800px) {
+      font-size: 13pt;
     }
   }
 `;

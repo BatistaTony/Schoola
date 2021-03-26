@@ -7,10 +7,28 @@ export const FooterStyled = styled.div`
   background: black;
   ${addFlexbox('row', 'center', 'center')};
 
+  @media (min-width: 1630px) {
+    height: 150px;
+  }
+
+  @media (min-width: 1800px) {
+    height: 170px;
+  }
+
+  
+
   p {
     color: white;
     ${addFont()};
     font-size: 12pt;
     margin: 0;
+
+    @media (min-width: 1630px) {
+      font-size: 14pt;
+    }
+
+    @media (min-width: 1800px) {
+      font-size: 15pt;
+    }
   }
 `;

@@ -17,6 +17,18 @@ export const NavbarStyled = styled.div`
     grid-template-columns: 50% 50%;
   }
 
+  @media (min-width: 1630px) {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100px;
+  }
+
+  @media (min-width: 2050px) {
+    padding-left: 14%;
+    padding-right: 14%;
+    height: 130px;
+  }
+
   .buttons_g {
     width: 100%;
     ${addFlexbox('row', 'center', 'flex-end')};
@@ -30,6 +42,12 @@ export const Logo = styled.h1`
   ${addFont('Bold')};
   ${addFlexbox('row', 'flex-end', 'flex-start')};
   width: 100%;
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: 1630px) {
+    font-size: 25pt;
+  }
 `;
 
 export const ButtonAccount = styled.button`
@@ -53,6 +71,11 @@ export const ButtonAccount = styled.button`
     &:last-child {
       display: none;
     }
+  }
+
+  @media (min-width: 1630px) {
+    width: 120px;
+    height: 45px;
   }
 `;
 
@@ -78,6 +101,16 @@ export const SearchStyled = styled.div`
     width: 100%;
   }
 
+  @media (min-width: 1630px) {
+    width: 500px;
+    height: 40px;
+  }
+
+  @media (min-width: 2050px) {
+    height: 50px;
+    width: 600px;
+  }
+
   .ant-input-group-wrapper,
   .ant-input-wrapper {
     width: 100%;
@@ -92,6 +125,14 @@ export const SearchStyled = styled.div`
     font-size: 10pt;
     color: black;
     ${addFont()};
+
+    @media (min-width: 1630px) {
+      font-size: 11pt;
+    }
+
+    @media (min-width: 2050px) {
+      font-size: 12pt;
+    }
   }
 
   .ant-input-group-addon {
@@ -114,10 +155,20 @@ export const NotificationStyled = styled.div`
   margin-right: 15px;
 
   svg {
-    fill: #d61b6a;
+    fill: black;
     width: 20px;
     height: 20px;
     cursor: pointer;
+    transition: 0.5s;
+
+    &:hover {
+      fill: gray;
+    }
+
+    @media (min-width: 1630px) {
+      width: 27px;
+      height: 27px;
+    }
   }
 
   .notifictionList {
@@ -154,6 +205,13 @@ export const NotificationStyled = styled.div`
         background-color: #d61b6a;
         margin-left: 10px;
       }
+    }
+  }
+
+  .style__CustomAvatar-sc-1xoavbs-0 {
+    @media (min-width: 1630px) {
+      width: 70px;
+      height: 70px;
     }
   }
 `;

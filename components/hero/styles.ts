@@ -24,6 +24,18 @@ export const HeroStyled = styled.div`
     padding-bottom: 5%;
   }
 
+  @media (min-width: 1630px) {
+    width: 80%;
+      margin-top: 40px;
+
+  }
+
+  @media (min-width: 2050px) {
+    width: 72%;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+  }
+
   .illustration_ {
     width: 380px;
     height: 380px;
@@ -46,6 +58,16 @@ export const HeroStyled = styled.div`
     @media (max-width: 650px) {
       display: none;
     }
+
+    @media (min-width: 1630px) {
+      width: 395px;
+      height: 395px;
+    }
+
+    @media (min-width: 2050px) {
+      width: 440px;
+      height: 440px;
+    }
   }
 `;
 
@@ -60,6 +82,10 @@ export const PresentationDiv = styled.div`
     width: 100%;
   }
 
+  @media (min-width: 2050px) {
+    width: 50%;
+  }
+
   .title {
     ${addFont('Bold')};
     font-size: 27pt;
@@ -71,6 +97,14 @@ export const PresentationDiv = styled.div`
 
     @media (max-width: 650px) {
       font-size: 18pt;
+    }
+
+    @media (min-width: 1630px) {
+      font-size: 32pt;
+    }
+
+    @media (min-width: 2050px) {
+      font-size: 30pt;
     }
   }
 
@@ -85,6 +119,14 @@ export const PresentationDiv = styled.div`
 
     @media (max-width: 650px) {
       font-size: 10.5pt;
+    }
+
+    @media (min-width: 1630px) {
+      font-size: 14pt;
+    }
+
+    @media (min-width: 2050px) {
+      font-size: 15.5pt;
     }
   }
 
@@ -107,6 +149,18 @@ export const PresentationDiv = styled.div`
 
     @media (max-width: 650px) {
       width: 135px;
+    }
+
+    @media (min-width: 1630px) {
+      width: 200px;
+      height: 50px;
+      font-size: 13pt;
+    }
+
+    @media (min-width: 2050px) {
+      width: 220px;
+      height: 55px;
+      font-size: 14pt;
     }
   }
 `;
