@@ -103,3 +103,57 @@ export const SearchStyled = styled.div`
     }
   }
 `;
+
+export const UserMenuStyled = styled.div`
+  width: auto;
+  ${addFlexbox('row', 'center', 'flex-end')};
+`;
+
+export const NotificationStyled = styled.div`
+  position: relative;
+  margin-right: 15px;
+
+  svg {
+    fill: #d61b6a;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .notifictionList {
+    position: absolute;
+    list-style: none;
+    width: 250px;
+    background: white;
+    right: 0%;
+    top: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    ${addFlexbox('column', 'center', 'flex-start')};
+    padding-bottom: 20px;
+
+    li {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      color: white;
+      ${addFont()};
+      font-size: 11pt;
+      background: #7b13ff;
+      margin-bottom: 10px;
+
+      .nameL {
+        ${addFont('Bold')};
+      }
+
+      .active_status {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: #d61b6a;
+        margin-left: 10px;
+      }
+    }
+  }
+`;

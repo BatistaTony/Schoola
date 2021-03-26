@@ -1,5 +1,6 @@
 import { IBook } from '@/types/book';
-import { CardBookStyled, AvatarOwner, BookCover } from './styles';
+import { CardBookStyled, BookCover } from './styles';
+import UserAvatar from '@/elements/avatar';
 
 interface ICardBook {
   book: IBook;
@@ -12,7 +13,7 @@ const CardBook = ({ book: { author, title, cover, postedBy } }: ICardBook) => {
       <h1 className="title">{title}</h1>
       <p className="author">{author.name}</p>
       <div className="owner">
-        <AvatarOwner avatar={postedBy.avatar} />
+        <UserAvatar src={postedBy.avatar} size="small" />
         <p>{postedBy.name}</p>
       </div>
     </CardBookStyled>
