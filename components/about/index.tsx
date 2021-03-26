@@ -1,7 +1,16 @@
-import { AboutStyled } from './style';
+import CardStory from './cardStory';
+import { AboutStyled, ListCard } from './style';
 
 const About = () => {
-  return <AboutStyled>MAKING USER STORY</AboutStyled>;
+  return (
+    <AboutStyled>
+      <ListCard>
+        {[1, 2, 3].map(() => (
+          <CardStory />
+        ))}
+      </ListCard>
+    </AboutStyled>
+  );
 };
 
 export default About;

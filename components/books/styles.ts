@@ -61,15 +61,6 @@ export const CardBookStyled = styled.li`
     height: 450px;
   }
 
-  .cover {
-    width: 100%;
-    height: 80%;
-    background: url(./cover.jpg) no-repeat;
-    background-position: center top;
-    background-size: cover;
-    border-radius: 5px;
-  }
-
   .title {
     font-size: 13pt;
     ${addFont('Bold')};
@@ -92,14 +83,29 @@ export const CardBookStyled = styled.li`
       margin-left: 5px;
     }
 
-    .avatar {
-      width: 20px;
-      height: 20px;
-      border-radius: 100%;
-      border: 1px solid gray;
-      background: url('./avatar.jpg');
-      background-position: center top;
-      background-size: 100%;
-    }
+    
   }
+`;
+
+export const BookCover = styled.div`
+  width: 100%;
+  height: 80%;
+  background: url(./cover.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+  border-radius: 5px;
+
+  &:hover {
+    cursor: pointer;
+  }
+`;
+
+export const AvatarOwner = styled.div`
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1px solid gray;
+  background: url('./avatar.jpg');
+  background-position: center top;
+  background-size: 100%;
 `;
