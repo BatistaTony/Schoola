@@ -62,8 +62,8 @@ export const CardBookStyled = styled.li`
   }
 
   .title {
-    font-size: 13pt;
-    ${addFont('Bold')};
+    font-size: 12pt;
+    ${addFont('Medium')};
     margin-top: 10px;
   }
 
@@ -82,15 +82,13 @@ export const CardBookStyled = styled.li`
       height: 100%;
       margin-left: 5px;
     }
-
-    
   }
 `;
 
-export const BookCover = styled.div`
+export const BookCover = styled.div<{ cover: String }>`
   width: 100%;
   height: 80%;
-  background: url(./cover.jpg) no-repeat;
+  background: ${({ cover }) => `url(${cover}) no-repeat`};
   background-position: center top;
   background-size: cover;
   border-radius: 5px;
@@ -100,12 +98,12 @@ export const BookCover = styled.div`
   }
 `;
 
-export const AvatarOwner = styled.div`
+export const AvatarOwner = styled.div<{ avatar: string }>`
   width: 20px;
   height: 20px;
   border-radius: 100%;
   border: 1px solid gray;
-  background: url('./avatar.jpg');
+  background: ${({ avatar }) => `url(${avatar})`};
   background-position: center top;
   background-size: 100%;
 `;

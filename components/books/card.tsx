@@ -1,14 +1,19 @@
+import { IBook } from '@/types/book';
 import { CardBookStyled, AvatarOwner, BookCover } from './styles';
 
-const CardBook = () => {
+interface ICardBook {
+  book: IBook;
+}
+
+const CardBook = ({ book: { author, title, cover, postedBy } }: ICardBook) => {
   return (
     <CardBookStyled>
-      <BookCover />
-      <h1 className="title">Leaders Eat Last</h1>
-      <p className="author">Simon Sinek</p>
+      <BookCover cover={cover} />
+      <h1 className="title">{title}</h1>
+      <p className="author">{author.name}</p>
       <div className="owner">
-        <AvatarOwner />
-        <p>Batista Tony</p>
+        <AvatarOwner avatar={postedBy.avatar} />
+        <p>{postedBy.name}</p>
       </div>
     </CardBookStyled>
   );

@@ -1,7 +1,11 @@
 import CardBook from './card';
 import { ListStyled, ListOf } from './styles';
+import books from '@/utils/books.json';
+import { IBook } from '@/types/book';
 
 const ListOfBooks = () => {
+  console.log(books);
+
   return (
     <ListStyled>
       <div className="header_list">
@@ -9,8 +13,8 @@ const ListOfBooks = () => {
         <p className="orderMode">All</p>
       </div>
       <ListOf>
-        {[1, 2, 3, 54, 57, 68, 7, 7, 87, 66, 6, 346, 45, 64, 56, 45].map(() => (
-          <CardBook />
+        {books.map((book: IBook) => (
+          <CardBook key={book.id} book={book} />
         ))}
       </ListOf>
     </ListStyled>

@@ -1,3 +1,5 @@
+import { IUser } from './user';
+
 export interface IBook {
   id: string;
   cover: string;
@@ -9,6 +11,8 @@ export interface IBook {
   auhtorId: number;
   category: string;
   rates: number;
+  author: IAuthor;
+  postedBy: IUser;
 }
 
 export interface IAuthor {

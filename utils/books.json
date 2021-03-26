@@ -1,5 +1,6 @@
 [
   {
+    "id": "5394tygbdmgdf",
     "cover": "cover.jpg",
     "title": "A era do gelo",
     "edition": "3 edition",
@@ -9,9 +10,17 @@
     "auhtorId": 1,
     "category": "Romance",
     "rates": 4,
-    "owner": ""
+    "author": {
+      "name": "Leon Park"
+    },
+    "postedBy": {
+      "id": 1,
+      "name": "Batista Tony",
+      "avatar": "avatar.jpg"
+    }
   },
   {
+    "id": "34dgt5",
     "cover": "cover.jpg",
     "title": "The Quegmire",
     "edition": "1 edition",
@@ -21,9 +30,18 @@
     "auhtorId": 2,
     "category": "story",
     "rates": 2,
-    "owner": ""
+    "author": {
+      "name": "Pitter Griffin"
+    },
+    "postedBy": {
+      "id": 2,
+      "name": "João Tony",
+      "avatar": "avatar.jpg"
+    }
   },
   {
+    "id": "kjfth3",
+
     "cover": "cover.jpg",
     "title": "Animal Farms",
     "edition": "6 edition",
@@ -33,9 +51,18 @@
     "auhtorId": 3,
     "category": "Revolutionary story",
     "rates": 5,
-    "owner": ""
+    "author": {
+      "name": "Leon Park"
+    },
+    "postedBy": {
+      "id": 1,
+      "name": "Batista Tony",
+      "avatar": "avatar.jpg"
+    }
   },
   {
+    "id": "w47dkb",
+
     "cover": "cover.jpg",
     "title": "Think and Grow Rich",
     "edition": "1 edition",
@@ -45,9 +72,18 @@
     "auhtorId": 4,
     "category": "FinanciaL Education",
     "rates": 5,
-    "owner": ""
+    "author": {
+      "name": "Leon Park"
+    },
+    "postedBy": {
+      "id": 1,
+      "name": "Batista Tony",
+      "avatar": "avatar.jpg"
+    }
   },
   {
+    "id": "ley4bds",
+
     "cover": "cover.jpg",
     "title": "The Power of Habit",
     "edition": "2 edition",
@@ -57,9 +93,18 @@
     "auhtorId": 5,
     "category": "Productivity and Focus",
     "rates": 5,
-    "owner": ""
+    "author": {
+      "name": "Leon Park"
+    },
+    "postedBy": {
+      "id": 1,
+      "name": "Batista Tony",
+      "avatar": "avatar.jpg"
+    }
   },
   {
+    "id": "3557khgd",
+
     "cover": "cover.jpg",
     "title": "The King of Babilon",
     "edition": "1 edition",
@@ -69,9 +114,18 @@
     "auhtorId": 6,
     "category": "Financial Education",
     "rates": 5,
-    "owner": ""
+    "author": {
+      "name": "Leon Park"
+    },
+    "postedBy": {
+      "id": 1,
+      "name": "Batista Tony",
+      "avatar": "avatar.jpg"
+    }
   },
   {
+    "id": "irui559p",
+
     "cover": "cover.jpg",
     "title": "A era do gelo",
     "edition": "3 edition",
@@ -81,9 +135,18 @@
     "auhtorId": 1,
     "category": "Romance",
     "rates": 4,
-    "owner": ""
+    "author": {
+      "name": "Leon Park"
+    },
+    "postedBy": {
+      "id": 1,
+      "name": "Batista Tony",
+      "avatar": "avatar.jpg"
+    }
   },
   {
+    "id": "fh354hyf",
+
     "cover": "cover.jpg",
     "title": "A era do gelo",
     "edition": "3 edition",
@@ -93,9 +156,18 @@
     "auhtorId": 1,
     "category": "Romance",
     "rates": 4,
-    "owner": ""
+    "author": {
+      "name": "Leon Park"
+    },
+    "postedBy": {
+      "id": 1,
+      "name": "Batista Tony",
+      "avatar": "avatar.jpg"
+    }
   },
   {
+    "id": "sdgk836",
+
     "cover": "cover.jpg",
     "title": "A era do gelo",
     "edition": "3 edition",
@@ -105,20 +177,17 @@
     "auhtorId": 1,
     "category": "Romance",
     "rates": 4,
-    "owner": ""
+    "author": {
+      "name": "Leon Park"
+    },
+    "postedBy": {
+      "id": 1,
+      "name": "Batista Tony",
+      "avatar": "avatar.jpg"
+    }
   },
   {
-    "title": "A era do gelo",
-    "edition": "3 edition",
-    "pages": 350,
-    "review": "",
-    "year": 2020,
-    "auhtorId": 1,
-    "category": "Romance",
-    "rates": 4,
-    "owner": ""
-  },
-  {
+    "id": "df6579ds",
     "cover": "cover.jpg",
     "title": "A era do gelo",
     "edition": "3 edition",
@@ -128,9 +197,18 @@
     "auhtorId": 1,
     "category": "Romance",
     "rates": 4,
-    "owner": ""
+    "author": {
+      "name": "Leon Park"
+    },
+    "postedBy": {
+      "id": 1,
+      "name": "Batista Tony",
+      "avatar": "avatar.jpg"
+    }
   },
   {
+    "id": "4778ghgdw",
+
     "cover": "cover.jpg",
     "title": "A era do gelo",
     "edition": "3 edition",
@@ -140,9 +218,18 @@
     "auhtorId": 1,
     "category": "Romance",
     "rates": 4,
-    "owner": ""
+    "author": {
+      "name": "Leon Park"
+    },
+    "postedBy": {
+      "id": 1,
+      "name": "Batista Tony",
+      "avatar": "avatar.jpg"
+    }
   },
   {
+    "id": "45fgjf46891",
+
     "cover": "cover.jpg",
     "title": "A era do gelo",
     "edition": "3 edition",
@@ -152,6 +239,34 @@
     "auhtorId": 1,
     "category": "Romance",
     "rates": 4,
-    "owner": ""
+    "author": {
+      "name": "Leon Park"
+    },
+    "postedBy": {
+      "id": 1,
+      "name": "Batista Tony",
+      "avatar": "avatar.jpg"
+    }
+  },
+  {
+    "id": "df67rhkp1",
+
+    "cover": "cover.jpg",
+    "title": "A era do gelo",
+    "edition": "3 edition",
+    "pages": 350,
+    "review": "",
+    "year": 2020,
+    "auhtorId": 1,
+    "category": "Romance",
+    "rates": 4,
+    "author": {
+      "name": "Leon Park"
+    },
+    "postedBy": {
+      "id": 1,
+      "name": "Batista Tony",
+      "avatar": "avatar.jpg"
+    }
   }
 ]
