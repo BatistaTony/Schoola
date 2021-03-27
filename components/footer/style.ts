@@ -15,7 +15,9 @@ export const FooterStyled = styled.div`
     height: 170px;
   }
 
-  
+  @media (min-width: 2500px) {
+    height: 200px;
+  }
 
   p {
     color: white;
@@ -29,6 +31,10 @@ export const FooterStyled = styled.div`
 
     @media (min-width: 1800px) {
       font-size: 15pt;
+    }
+
+    @media (min-width: 2500px) {
+      font-size: 18pt;
     }
   }
 `;

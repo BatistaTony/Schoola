@@ -20,6 +20,10 @@ export const ListStyled = styled.div`
     margin-top: 60px;
   }
 
+  @media (min-width: 2500px) {
+    width: 64%;
+  }
+
   .header_list {
     width: 100%;
     ${addFlexbox('row', 'center', 'space-between')};
@@ -35,6 +39,10 @@ export const ListStyled = styled.div`
       @media (min-width: 2050px) {
         font-size: 25pt;
       }
+
+      @media (min-width: 2500px) {
+        font-size: 30pt;
+      }
     }
 
     .orderMode {
@@ -48,6 +56,10 @@ export const ListStyled = styled.div`
 
       @media (min-width: 2050px) {
         font-size: 17pt;
+      }
+
+      @media (min-width: 2500px) {
+        font-size: 20pt;
       }
     }
   }
@@ -99,6 +111,11 @@ export const CardBookStyled = styled.li`
     margin-top: 40px;
   }
 
+  @media (min-width: 2500px) {
+    height: 540px;
+    margin-top: 50px;
+  }
+
   .title {
     font-size: 12pt;
     ${addFont('Medium')};
@@ -114,6 +131,10 @@ export const CardBookStyled = styled.li`
 
     @media (min-width: 2050px) {
       font-size: 16pt;
+    }
+
+    @media (min-width: 2500px) {
+      font-size: 20pt;
     }
   }
 
@@ -133,6 +154,10 @@ export const CardBookStyled = styled.li`
     @media (min-width: 2050px) {
       font-size: 14.5pt;
     }
+
+    @media (min-width: 2500px) {
+      font-size: 15.5pt;
+    }
   }
 
   .owner {
@@ -143,6 +168,7 @@ export const CardBookStyled = styled.li`
       ${addFont('Medium')};
       height: 100%;
       margin-left: 5px;
+      cursor: pointer;
 
       @media (min-width: 1630px) {
         font-size: 11pt;
@@ -154,6 +180,10 @@ export const CardBookStyled = styled.li`
 
       @media (min-width: 2050px) {
         font-size: 13.5pt;
+      }
+
+      @media (min-width: 2500px) {
+        font-size: 15.5pt;
       }
     }
   }

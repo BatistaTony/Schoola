@@ -20,6 +20,10 @@ export const AboutStyled = styled.div`
   @media (min-width: 1800px) {
     height: 750px;
   }
+
+  @media (min-width: 2100px) {
+    height: 900px;
+  }
 `;
 
 export const ListCard = styled.div`
@@ -67,6 +71,14 @@ export const ListCard = styled.div`
 
   @media (min-width: 1800px) {
     width: 60%;
+  }
+
+  @media (min-width: 2100px) {
+    width: 45%;
+  }
+
+  @media (min-width: 2600px) {
+    width: 40%;
   }
 `;
 

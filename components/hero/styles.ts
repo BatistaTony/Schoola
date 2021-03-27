@@ -26,14 +26,17 @@ export const HeroStyled = styled.div`
 
   @media (min-width: 1630px) {
     width: 80%;
-      margin-top: 40px;
-
+    margin-top: 40px;
   }
 
   @media (min-width: 2050px) {
     width: 72%;
     padding-top: 3.5%;
     padding-bottom: 3.5%;
+  }
+
+  @media (min-width: 2500px) {
+    width: 64%;
   }
 
   .illustration_ {
@@ -67,6 +70,11 @@ export const HeroStyled = styled.div`
     @media (min-width: 2050px) {
       width: 440px;
       height: 440px;
+    }
+
+    @media (min-width: 2500px) {
+      width: 500px;
+      height: 500px;
     }
   }
 `;
@@ -106,6 +114,10 @@ export const PresentationDiv = styled.div`
     @media (min-width: 2050px) {
       font-size: 30pt;
     }
+
+    @media (min-width: 2500px) {
+      font-size: 35pt;
+    }
   }
 
   .presentation_text {
@@ -127,6 +139,10 @@ export const PresentationDiv = styled.div`
 
     @media (min-width: 2050px) {
       font-size: 15.5pt;
+    }
+
+    @media (min-width: 2500px) {
+      font-size: 20pt;
     }
   }
 
@@ -161,6 +177,12 @@ export const PresentationDiv = styled.div`
       width: 220px;
       height: 55px;
       font-size: 14pt;
+    }
+
+    @media (min-width: 2500px) {
+      width: 250px;
+      height: 60px;
+      font-size: 18pt;
     }
   }
 `;
