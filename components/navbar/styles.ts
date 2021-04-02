@@ -50,6 +50,7 @@ export const Logo = styled.h1`
   width: 100%;
   margin: 0;
   padding: 0;
+  cursor: pointer;
 
   @media (min-width: 1630px) {
     font-size: 25pt;

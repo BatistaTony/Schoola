@@ -16,5 +16,6 @@ export interface IBook {
 }
 
 export interface IAuthor {
+  
   name: string;
 }

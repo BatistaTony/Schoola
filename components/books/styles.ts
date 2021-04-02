@@ -159,34 +159,35 @@ export const CardBookStyled = styled.li`
       font-size: 15.5pt;
     }
   }
+`;
 
-  .owner {
-    ${addFlexbox('row', 'flex-start', 'flex-start')};
+export const OwnerContainer = styled.div`
+${addFlexbox('row', 'flex-start', 'flex-start')};
 
-    p {
-      font-size: 10pt;
-      ${addFont('Medium')};
-      height: 100%;
-      margin-left: 5px;
-      cursor: pointer;
+p {
+  font-size: 10pt;
+  ${addFont('Medium')};
+  height: 100%;
+  margin-left: 5px;
+  cursor: pointer;
 
-      @media (min-width: 1630px) {
-        font-size: 11pt;
-      }
-
-      @media (min-width: 1800px) {
-        font-size: 12.5pt;
-      }
-
-      @media (min-width: 2050px) {
-        font-size: 13.5pt;
-      }
-
-      @media (min-width: 2500px) {
-        font-size: 15.5pt;
-      }
-    }
+  @media (min-width: 1630px) {
+    font-size: 11pt;
   }
+
+  @media (min-width: 1800px) {
+    font-size: 12.5pt;
+  }
+
+  @media (min-width: 2050px) {
+    font-size: 13.5pt;
+  }
+
+  @media (min-width: 2500px) {
+    font-size: 15.5pt;
+  }
+}
+}
 `;
 
 export const BookCover = styled.div<{ cover: String }>`

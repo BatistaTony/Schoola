@@ -23,8 +23,8 @@ const About = () => {
   return (
     <AboutStyled>
       <ListCard>
-        {list.map(item => (
-          <CardStory item={item} />
+        {list.map((item, index) => (
+          <CardStory key={index} item={item} />
         ))}
       </ListCard>
     </AboutStyled>

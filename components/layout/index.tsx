@@ -1,6 +1,7 @@
 import { Layout as AntLayout } from 'antd';
 import Head from 'next/head';
 import { FC } from 'react';
+import Footer from '../footer';
 import Navbar from '../navbar';
 
 import LayoutStyle from './layout.style';
@@ -18,6 +19,7 @@ const Layout: FC<LayoutProps> = ({ children, title }) => (
       <Navbar />
       <Content style={LayoutStyle.contentStyle}>{children}</Content>
     </div>
+    <Footer/>
   </AntLayout>
 );
 
